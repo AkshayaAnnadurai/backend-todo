@@ -1,6 +1,6 @@
 const express=require("express")
 const cors=require("cors")
-const dbConnect=require("../db")
+const dbConnect=require("./config/db")
 const userRouter=require("./features/user.router")
 let PORT=8000
 
